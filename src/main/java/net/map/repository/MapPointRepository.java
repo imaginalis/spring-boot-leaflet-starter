@@ -1,7 +1,9 @@
 package net.map.repository;
 
-/**
- * Created by pingwin on 26.10.16.
- */
-public class MapPointRepository {
+import net.map.domain.MapPoint;
+import org.springframework.data.repository.CrudRepository;
+
+
+public interface MapPointRepository extends CrudRepository<MapPoint,Long>{
+
 }
